@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head> <style>
+    h2{
+        text-align: center;
+        
+
+    }
+
+    p{
+        text-align: center;
+    }
+    form{
+        max-width: 600px;
+        margin: auto;
+        background: white;
+        border: 2px solid black;
+        padding: 25px;
+        
+        border-radius: 10px;
+    }
+    table{
+        width: 100%;
+        border-spacing: 12px;
+    }
+    td{
+        vertical-align: top;
+    }
+    label{
+        font-weight: bold;
+    }
+</style>
+<body> 
+    <h2><i class="fa-brands fa-searchengin"></i>Job Application Form</h2>
+    <p> Please complete the form below to apply for a position with as</p>
+    
+    <form>
+        <table>
+        <tr>
+            <td><label for="name">First Name:</label></td>
+            <td><input type="text" id="name" placeholder="Enter Your First Name"></td>
+            </tr>
+            <tr>
+            <td><label for="name">Last Name:</label></td>
+            <td><input type="text" id="name" placeholder="Enter Your Last name "></td>
+            </tr>
+            <tr>
+                <td><label for="gen">Gender:</label></td>
+                <td><input type="radio" id="gen" name="Gender">Male<input type="radio" id="gen" name="Gender">Female</td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" placeholder="Enter Your Email"></td>
+            </tr>
+<tr>
+<td><label for="Con no">Contact No:</label></td>
+<td><input type="number" id="Con no" placeholder="Enter Your Number"></td>
+</tr>
+<tr>
+    <td><label for="qua">Qualification:</label></td>
+    <td>
+    <select>
+        <option>School</option>
+        <option selected>Under Graduate</option>
+        <option>Post Graduate</option>
+    </select></td>
+</tr>
+<tr>
+    <td><label for="yop">Year of Passed Out:</label></td>
+<td><input type="number" id="yop" min="1999" max="2025" placeholder="yyyy">
+  </td>
+</tr>
+<tr>
+    <td><label for="dept">Department:</label></td>
+    <td><input type="text" id="dept" placeholder="Enter Your Department"></td>
+</tr>
+<tr>
+    <td><label for="clg">college Name:</label></td>
+    <td><input type="text" id="clg" placeholder="Enter Your college Name"></td>
+</tr>
+<tr>
+    <td><label for="add">Address:</label></td>
+    <td><textarea id="add" rows="3"></textarea></td>
+</tr>
+<tr>
+    <td><label for="fre/exp">Fresher/Experience:</label></td>
+  <td><input type="radio" name="fre/exp">Fresher <input type="radio" name="fre/exp">0-2 Year Experience</td>
+</tr>
+<tr>
+    <td><label for="resu">Upload Your Resume:</label></td>
+    <td><input type="file" id="resu"></td>
+</tr>
+        <tr><td><label for="pho">Upload Your Photo:</label></td>
+        
+            <td><input type="file" id="pho"></td>
+        </tr>
+        <tr>
+            <td><label for="sum">Summary:</label></td>
+            <td><textarea id="sum" rows="4"></textarea></td>
+        </tr>
+            <td><input type="submit"id="sub"></td>
+        </tr>
+    </form></table>
+</body>
+</html>
